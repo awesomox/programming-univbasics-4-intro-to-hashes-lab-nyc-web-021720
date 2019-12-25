@@ -43,6 +43,7 @@ def update_counting_hash(hash, key)
   else
     hash[key] = 1 
   end 
+  p hash
 end 
   
-update_counting_hash(groceries, :apples)
+update_counting_hash(groceries, :bananas)
